@@ -25,4 +25,12 @@
 
 ##### 변수 표현식 : ${...}
 
+# 기본 객체들
+
+##### HTTP 요청 파라미터 접근: param
+- 예) ${param.paramData}
+##### HTTP 세션 접근: session
+- 예) ${session.sessionData}
+##### 스프링 빈 접근: @
+- 예) ${@helloBean.hello('Spring!')}
      
